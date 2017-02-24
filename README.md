@@ -8,7 +8,10 @@ We will be using Anaconda, an open platform for data science that makes it much 
 * OSX (Mac): https://repo.continuum.io/archive/Anaconda3-4.3.0-MacOSX-x86_64.pkg
 * Linux: https://repo.continuum.io/archive/Anaconda3-4.3.0-Linux-x86_64.sh
 
-**If you already have Anaconda installed, you don't have to install a newer version. Just make sure you have a conda environment that uses some version of Python 3.**
+Okay, you should be ready for the bootcamp! All the scientific packages you need come installed already with Anaconda.
+
+## If you already have Anaconda installed:
+**You don't have to install a newer version. Just make sure you have a conda environment that uses some version of Python 3.**
 
 Like so:
 
@@ -16,6 +19,8 @@ Like so:
 
   `> conda create -n bootcamp python=3.5`
 
+  (then hit `Enter`)
+  
 2. Then do
 
   (Mac)
@@ -24,11 +29,15 @@ Like so:
   (Windows)
   `> activate bootcamp`
 
-3. lastly
+3. Your command line prompt should now look something like this:
+  `(bootcamp) >`.
+  
+   You're going to install required packages into the environment you've just created. (We'll explain what that means Thursday.)
+   To install those packages, enter the command 
 
   `> conda install jupyter pandas numpy pip`
 
-and say `y` when it asks you whether it's okay to install the dependencies (trust me, it's okay)
+  and say `y` when it asks you whether it's okay to install the dependencies (trust me, it's okay)
 
 To deactivate you just enter `deactivate` (for Windows) or `source deactivate` (for Mac), or simply close the terminal
 

@@ -1,7 +1,7 @@
 # EWIN-coding-bootcamp
 Files for coding bootcamp sponsored by Emory Women In Neuroscience
 
-We will be using Anaconda, an open platform for data science that makes it much easier to install scientific computing packages used with Python, R, and other open-source languages.
+We will be using Anaconda, an open platform for data science that makes it much easier to install scientific computing libraries used with Python, R, and other languages.
 
 **Please install Anaconda with the current version of Python, 3.6**
 * Windows: https://repo.continuum.io/archive/Anaconda3-4.3.0.1-Windows-x86_64.exe

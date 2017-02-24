@@ -4,9 +4,9 @@ Files for coding bootcamp sponsored by Emory Women In Neuroscience
 We will be using Anaconda, an open platform for data science that makes it much easier to install scientific computing packages used with Python, R, and other open-source languages.
 
 **Please install Anaconda with the current version of Python, 3.6**
-* Windows: repo.continuum.io/archive/Anaconda3-4.3.0.1-Windows-x86_64.exe
-* OSX (Mac): repo.continuum.io/archive/Anaconda3-4.3.0-MacOSX-x86_64.pkg
-* Linux: repo.continuum.io/archive/Anaconda3-4.3.0-Linux-x86_64.sh
+* Windows: https://repo.continuum.io/archive/Anaconda3-4.3.0.1-Windows-x86_64.exe
+* OSX (Mac): https://repo.continuum.io/archive/Anaconda3-4.3.0-MacOSX-x86_64.pkg
+* Linux: https://repo.continuum.io/archive/Anaconda3-4.3.0-Linux-x86_64.sh
 
 **If you already have Anaconda installed, you don't have to install a newer version. Just make sure you have a conda environment that uses some version of Python 3.**
 

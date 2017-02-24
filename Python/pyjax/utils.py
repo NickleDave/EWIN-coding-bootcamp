@@ -26,7 +26,7 @@ def sort_by_strain(parsed_file,key_index,value_index):
     for row in parsed_file:
         row_key = row[key_index] 
         row_val = float(row[value_index]) # convert from string to float!
-        if row_key in mouse_dict.keys():
+        if row_key in sorted_by_strain.keys():
             sorted_by_strain[row_key].append(row_val)
         else:
             sorted_by_strain[row_key] = [row_val]

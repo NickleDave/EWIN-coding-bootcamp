@@ -10,7 +10,7 @@ We will be using Anaconda, an open platform for data science that makes it much 
 
 Okay, you should be ready for the bootcamp! All the scientific packages you need come installed already with Anaconda.
 
-## If you already have Anaconda installed:
+### If you already have Anaconda installed:
 **You don't have to install a newer version. Just make sure you have a conda environment that uses some version of Python 3.**
 
 Like so:
@@ -33,14 +33,13 @@ Like so:
   `(bootcamp) >`.
   
    You're going to install required packages into the environment you've just created. (We'll explain what that means Thursday.)
+   
    To install those packages, enter the command 
 
   `> conda install jupyter pandas numpy pip`
 
   and say `y` when it asks you whether it's okay to install the dependencies (trust me, it's okay)
 
-To deactivate you just enter `deactivate` (for Windows) or `source deactivate` (for Mac), or simply close the terminal
+To deactivate you just enter `deactivate` (for Windows) or `source deactivate` (for Mac), or simply close the terminal.
 
-You'll want to activate that conda environment again so you can use the Jupyter notebooks.
-
-To do so, you'll either go to the directory with this cloned repo in the terminal and enter `>jupyter notebook` or if Anaconda installed Jupyter for you, you can click the handy-dandy red icon under Anaconda in your programs (this might only work on Windows, sorry Mac people).
+You'll want to open an Anaconda terminal and activate that conda environment again when we start using the Jupyter notebooks in the bootcamp.

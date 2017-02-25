@@ -32,7 +32,7 @@ def sort_by_strain(parsed_file,key_index,value_index):
             sorted_by_strain[row_key] = [row_val]
     return sorted_by_strain
 
-def compute_mouse_dict_mean_and_std(sorted_by_strain):
+def compute_strain_mean_and_std(sorted_by_strain):
     """
     computes means and standard deviations for dictionary produced by
     sort_by_strains function, where the key is a mouse strain and the 
@@ -48,14 +48,14 @@ def compute_mouse_dict_mean_and_std(sorted_by_strain):
     returns
     -------
     mouse_means : dictionary where key is strain name and value is mean
-    mouse_stddevs : dictionary where key is strain name and value is standard
+    mouse_std_devs : dictionary where key is strain name and value is standard
                     deviation
     """
     
     mouse_means = {}
-    mouse_stdevs = {}
+    mouse_std_devs = {}
     
     for key,val in sorted_by_strain.items():
         mouse_means[key] = np.mean(val)
-        mouse_stddevs[key] = np.std(val)
-    return mouse_means, mouse_stddevs
+        mouse_std_devs[key] = np.std(val)
+    return mouse_means, mouse_std_devs
